@@ -52,7 +52,6 @@ Snapshots do estado do projeto\
 
 -git branch new_name
 
-<<<<<<< HEAD
     -cria um novo local para codigo independente(como se fosse um segundo repositorio)
     -permite ramificação de codigos
 
@@ -68,6 +67,6 @@ Snapshots do estado do projeto\
 
     -da merge de duas branchs
     -junta os dois arquivos, podendo sobrepor outros codigos
-    
+
 -git config --global user.name "{name}"
 -git config --global user.email {email}

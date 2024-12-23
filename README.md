@@ -24,12 +24,16 @@ Snapshots do estado do projeto\
         -Staged{area antes de dar commit no projeto}
             -git add {file} -- para adicionar o arquivo na area de Staged e dar commit/registrar
         -Untracker {quando é adicionado um novo arquivo externo}
+
 -git diff # mostra as linhas que foram modificadas no projeto\
 -git diff --staged #arquivos modificados no staged\
 -git commit -m "add new title"\
 -git log #lista ultimos commits\
 -git restore  File #Retornar modificacoes no arquivo\
 -git restore --staged File #Retornar um arquivo do staged antes do commit\
+
+    -apos usar o {git restore --stage file} usamos o {git restore file} para que seja retornado o comando
+    
 -git push\
 -git pull\
 -git fetch\

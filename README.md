@@ -68,5 +68,6 @@ Snapshots do estado do projeto\
     -da merge de duas branchs
     -junta os dois arquivos, podendo sobrepor outros codigos
 
--git config --global user.name "{name}"
--git config --global user.email {email}
+-git config --global user.name "{name}"\
+
+-git config --global user.email {email}\

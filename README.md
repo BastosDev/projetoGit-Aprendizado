@@ -27,7 +27,7 @@ Snapshots do estado do projeto\
 
 -git diff # mostra as linhas que foram modificadas no projeto\
 -git diff --staged #arquivos modificados no staged\
--git commit -m "add new title"\
+-git commit -m "add new {modification}"\
 -git log #lista ultimos commits\
 -git restore  File #Retornar modificacoes no arquivo\
 -git restore --staged File #Retornar um arquivo do staged antes do commit\

@@ -35,12 +35,21 @@ Snapshots do estado do projeto\
     -apos usar o {git restore --stage file} usamos o {git restore file} para que seja retornado o comando
     
 -git push\
+
+    -manda para o rep(tem como alternativa o github desktop)
+
 -git pull\
 
     -da um merge com o repositorio remoto{o do site do github}
 
 -git fetch\
+
+    -pega as alterações do rep remoto antes de passar pro local
+
 -git diff origin/branch\
+
+    -mostra as alterações do git fetch
+
 -git branch new_name
 -git log --oneline --decorate
 -git config --global user.name "{name}"

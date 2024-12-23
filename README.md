@@ -36,6 +36,9 @@ Snapshots do estado do projeto\
     
 -git push\
 -git pull\
+
+    -da um merge com o repositorio remoto{o do site do github}
+
 -git fetch\
 -git diff origin/branch\
 -git branch new_name

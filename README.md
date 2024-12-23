@@ -51,6 +51,16 @@ Snapshots do estado do projeto\
     -mostra as alterações do git fetch
 
 -git branch new_name
+
+    -cria linhas para demonstrar codigos individuais
+
 -git log --oneline --decorate
+
+    -mostra em qual branch estamos
+
+-git checkout {new_name}
+
+    -leva para a nova branch
+
 -git config --global user.name "{name}"
 -git config --global user.email {email}

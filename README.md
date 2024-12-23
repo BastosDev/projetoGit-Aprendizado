@@ -63,5 +63,9 @@ Snapshots do estado do projeto\
 
     -nos permite transitar entre o branchs
 
+-git merge {branch_name}
+
+    -da merge de duas branchs
+
 -git config --global user.name "{name}"
 -git config --global user.email {email}

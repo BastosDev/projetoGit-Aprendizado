@@ -13,21 +13,18 @@ Snapshots do estado do projeto\
 -git cmd\
 -git desktop\
 -git vscode
-## Git status
--Untracked # arquivo adicionado no projeto\
--Unmodified # salvo no estado atual (já recebeu commit e está salvo)\
--Modified # sofreu ateração (não recebeu commit e não está salvo)\
--Staged # sofreu ateração e foi para area de tranferencia "area do git add" (não recebeu commit e não está salvo)
 ## Comandos
 -git clone http #clone repositorio\
 -git init #inicia o git\é possível abrir o git pela pasta tambem
 -git status # status do projeto # Git status\  
 
-    -Os status do git são divididos em:
+    -Os status do git são divididos em(use {git status} para verificar):
         -Unmodified{ja mapeado e jogado na area do Stage}
         -Modified{quando é modificado}
-
--git diff # o que foi modificado nos modificados\
+        -Staged{area antes de dar commit no projeto}
+            -git add {file} -- para adicionar o arquivo na area de Staged e dar commit/registrar
+        -Untracker {quando é adicionado um novo arquivo externo}
+-git diff # mostra as linhas que foram modificadas no projeto\
 -git diff --staged #arquivos modificados no staged\
 -git commit -m "add new title"\
 -git log #lista ultimos commits\
@@ -39,5 +36,5 @@ Snapshots do estado do projeto\
 -git diff origin/branch\
 -git branch new_name
 -git log --oneline --decorate
--git config --global user.name "{name}" #
+-git config --global user.name "{name}"
 -git config --global user.email {email}

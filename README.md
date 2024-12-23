@@ -53,6 +53,7 @@ Snapshots do estado do projeto\
 -git branch new_name
 
     -cria um novo local para codigo independente(como se fosse um segundo repositorio)
+    -permite ramificação de codigos
 
 -git log --oneline --decorate
 

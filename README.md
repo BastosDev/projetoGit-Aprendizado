@@ -51,6 +51,16 @@ Snapshots do estado do projeto\
     -mostra as alterações do git fetch
 
 -git branch new_name
+
+    -cria um novo local para codigo independente(como se fosse um segundo repositorio)
+
 -git log --oneline --decorate
+
+    -mostra em que branch estamos
+
+-git checkout {new_name}
+
+    -nos permite transitar entre o branchs
+
 -git config --global user.name "{name}"
 -git config --global user.email {email}
